@@ -1,0 +1,173 @@
+27c27
+< font_size 18.0
+---
+> # font_size 11.0
+1716c1716
+< map cmd+c       copy_to_clipboard
+---
+> # map cmd+c       copy_to_clipboard
+1727c1727
+< map cmd+v       paste_from_clipboard
+---
+> # map cmd+v       paste_from_clipboard
+1759,1760c1759,1760
+< map opt+cmd+page_up scroll_line_up
+< map cmd+up          scroll_line_up
+---
+> # map opt+cmd+page_up scroll_line_up
+> # map cmd+up          scroll_line_up
+1766,1767c1766,1767
+< map opt+cmd+page_down scroll_line_down
+< map cmd+down          scroll_line_down
+---
+> # map opt+cmd+page_down scroll_line_down
+> # map cmd+down          scroll_line_down
+1772c1772
+< map cmd+page_up       scroll_page_up
+---
+> # map cmd+page_up       scroll_page_up
+1777c1777
+< map cmd+page_down       scroll_page_down
+---
+> # map cmd+page_down       scroll_page_down
+1782c1782
+< map cmd+home       scroll_home
+---
+> # map cmd+home       scroll_home
+1787c1787
+< map cmd+end       scroll_end
+---
+> # map cmd+end       scroll_end
+1850c1850
+< map cmd+enter       new_window
+---
+> # map cmd+enter       new_window
+1881c1881
+< map cmd+n       new_os_window
+---
+> # map cmd+n       new_os_window
+1890c1890
+< map shift+cmd+d close_window
+---
+> # map shift+cmd+d close_window
+1915c1915
+< map cmd+r       start_resizing_window
+---
+> # map cmd+r       start_resizing_window
+1920c1920
+< map cmd+1       first_window
+---
+> # map cmd+1       first_window
+1925c1925
+< map cmd+2       second_window
+---
+> # map cmd+2       second_window
+1930c1930
+< map cmd+3       third_window
+---
+> # map cmd+3       third_window
+1935c1935
+< map cmd+4       fourth_window
+---
+> # map cmd+4       fourth_window
+1940c1940
+< map cmd+5       fifth_window
+---
+> # map cmd+5       fifth_window
+1945c1945
+< map cmd+6       sixth_window
+---
+> # map cmd+6       sixth_window
+1950c1950
+< map cmd+7       seventh_window
+---
+> # map cmd+7       seventh_window
+1955c1955
+< map cmd+8       eighth_window
+---
+> # map cmd+8       eighth_window
+1960c1960
+< map cmd+9       ninth_window
+---
+> # map cmd+9       ninth_window
+1989c1989
+< map shift+cmd+]     next_tab
+---
+> # map shift+cmd+]     next_tab
+1995c1995
+< map shift+cmd+[    previous_tab
+---
+> # map shift+cmd+[    previous_tab
+2001c2001
+< map cmd+t       new_tab
+---
+> # map cmd+t       new_tab
+2006c2006
+< map cmd+w       close_tab
+---
+> # map cmd+w       close_tab
+2010c2010
+< map shift+cmd+w close_os_window
+---
+> # map shift+cmd+w close_os_window
+2023c2023
+< map shift+cmd+i     set_tab_title
+---
+> # map shift+cmd+i     set_tab_title
+2075,2077c2075,2077
+< map cmd+plus         change_font_size all +2.0
+< map cmd+equal        change_font_size all +2.0
+< map shift+cmd+equal  change_font_size all +2.0
+---
+> # map cmd+plus         change_font_size all +2.0
+> # map cmd+equal        change_font_size all +2.0
+> # map shift+cmd+equal  change_font_size all +2.0
+2083,2084c2083,2084
+< map cmd+minus             change_font_size all -2.0
+< map shift+cmd+minus       change_font_size all -2.0
+---
+> # map cmd+minus             change_font_size all -2.0
+> # map shift+cmd+minus       change_font_size all -2.0
+2089c2089
+< map cmd+0               change_font_size all 0
+---
+> # map cmd+0               change_font_size all 0
+2179c2179
+< map ctrl+cmd+f    toggle_fullscreen
+---
+> # map ctrl+cmd+f    toggle_fullscreen
+2187c2187
+< map opt+cmd+s toggle_macos_secure_keyboard_entry
+---
+> # map opt+cmd+s toggle_macos_secure_keyboard_entry
+2197c2197
+< map cmd+,        edit_config_file
+---
+> # map cmd+,        edit_config_file
+2225c2225
+< map opt+cmd+r        clear_terminal reset active
+---
+> # map opt+cmd+r        clear_terminal reset active
+2260c2260
+< map cmd+k clear_terminal to_cursor active
+---
+> # map cmd+k clear_terminal to_cursor active
+2265c2265
+< map ctrl+cmd+,   load_config_file
+---
+> # map ctrl+cmd+,   load_config_file
+2323c2323
+< map shift+cmd+/ open_url https://sw.kovidgoyal.net/kitty/
+---
+> # map shift+cmd+/ open_url https://sw.kovidgoyal.net/kitty/
+2339c2339
+< map cmd+q quit
+---
+> # map cmd+q quit
+2345,2349d2344
+< 
+< # BEGIN_KITTY_THEME
+< # Japanesque
+< include current-theme.conf
+< # END_KITTY_THEME
+\ No newline at end of file
