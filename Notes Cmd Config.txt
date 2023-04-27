@@ -1,0 +1,2 @@
+I like using the cmd+ commands in the kitty.conf file. I parsed them to the attached "cmd.conf" file and placed it in the ".config/kitty" folder, and added the "include cmd.conf" statement for a secondary config file, in a virgin kitty.conf. I'm using a virgin kitty.conf because of the mungs to the original. I also like the idea of munging my own conf file. Using the virgin kitty.conf required running "kitty +kitten themes"
+

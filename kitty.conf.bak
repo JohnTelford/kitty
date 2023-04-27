@@ -1,3 +1,6 @@
+# include the cmd file
+include cmd.config
+
 # vim:fileencoding=utf-8:foldmethod=marker
 
 #: Fonts {{{
@@ -2342,8 +2345,3 @@
 
 #: }}}
 
-
-# BEGIN_KITTY_THEME
-# Galaxy
-include current-theme.conf
-# END_KITTY_THEME
